@@ -1,0 +1,413 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+}
+
+.wrapper {
+    max-width: 1662px;
+}
+
+/* header */
+.container {
+    width: 1700px;
+    margin: 0 auto;
+    color: white;
+    font-size: 170%;
+    /* border: 1px solid red; */
+}
+
+header{
+    padding-top: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+}
+
+/* header-content */
+.btn {
+    border: 1px solid white;
+    padding: 18px 32px 16px 32px;
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+    position: absolute;
+    left: 1030px;
+    top: 415px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.development {
+    font-size: 300%;
+    color: white;
+    font-weight: 400;
+    margin: 0px 0px 0px 530px
+}
+
+.branding {
+    font-size: 300%;
+    color: white;
+    font-weight: 400;
+    margin: 0px 0px 0px 646px
+}
+
+.digital {
+    font-size: 150%;
+    color: white;
+    font-weight: 400;
+    margin: 300px 0px 0px 816px;
+    font-weight: 400;
+}
+
+.agancy {
+    padding: 0;
+    font-size: 150%;
+    color: white;
+    font-weight: 400;
+    margin: 0px 0px 0px 807px;
+    font-weight: 400;
+}
+
+/* horizon lines */
+hr {
+    margin: 400px 150px 0px 150px;
+}
+
+.port {
+    margin: 200px 150px 0px 150px;
+}
+
+/* portfolio */
+.portfolio {
+    font-size: 300%;
+    color: white;
+    font-weight: 300;
+    margin: 150px 0px 0px 800px;
+}
+
+.block-item {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.square1 {
+    width: 550px;
+    height: 250px;
+    background-color: gray;
+    margin: 100px 0px 0px 380px;
+    display: inline-block;
+}
+
+.square2 {
+    width: 550px;
+    height: 250px;
+    background-color: gray;
+    margin: 100px 0px 0px 15px;
+    display: inline-block;
+}
+
+.square3 {
+    width: 550px;
+    height: 250px;
+    background-color: gray;
+    margin: 15px 0px 0px 380px;
+    display: inline-block;
+
+}
+
+.square4 {
+    width: 550px;
+    height: 250px;
+    background-color: gray;
+    margin: 15px 0px 0px 15px;
+    display: inline-block;
+}
+
+.white-square {
+    width: 530px;
+    height: 230px;
+    background-color: white;
+    position: absolute;
+    top: 1225px;
+    left: 390px
+}
+
+.new-proj {
+    font-size: 160%;
+    color: black;
+    font-weight: 400;
+    position: absolute;
+    top: 1285px;
+    left: 415px
+}
+
+.description {
+    font-size: 120%;
+    color: black;
+    font-weight: 400;
+    position: absolute;
+    top: 1340px;
+    left: 415px
+}
+
+.circle {
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1321px;
+    left: 850px
+}
+
+.arrow {
+    color: white;
+    position: absolute;
+    top: 1328px;
+    left: 857px
+}
+
+/* service section */
+.service {
+    font-size: 300%;
+    color: white;
+    font-weight: 300;
+    margin: 150px 0px 0px 825px;
+}
+
+.service-block {
+    color: white;
+    font-size: 155%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.service1 {
+    background-color: #1B1B1B;
+    height: 320px;
+    width: 450px;
+    margin: 100px 0px 0px 230px;
+    display: inline-block;
+    padding: 40px 3px 3px 3px;
+}
+
+.service2 {
+    background-color: #1B1B1B;
+    height: 320px;
+    width: 450px;
+    margin: 100px 0px 0px 15px;
+    display: inline-block;
+    padding: 40px 3px 3px 3px;
+}
+
+.service3 {
+    background-color: #1B1B1B;
+    height: 320px;
+    width: 450px;
+    margin: 100px 0px 0px 15px;
+    display: inline-block;
+    padding: 40px 3px 3px 3px;
+} 
+
+.service4 {
+    background-color: #1B1B1B;
+    height: 320px;
+    width: 450px;
+    margin: 15px 0px 0px 230px;
+    display: inline-block;
+    padding: 40px 3px 3px 3px;
+} 
+
+.service5 {
+    background-color: #1B1B1B;
+    height: 320px;
+    width: 450px;
+    margin: 15px 0px 0px 15px;
+    display: inline-block;
+    padding: 40px 3px 3px 3px;
+} 
+
+.service6 {
+    background-color: #1B1B1B;
+    height: 320px;
+    width: 450px;
+    margin: 15px 0px 0px 15px;
+    display: inline-block;
+    padding: 40px 3px 3px 3px;
+}  
+
+h2 {
+    padding-left: 150px;
+}
+
+.frame1 {
+    height: 60px;
+    width: 60px;
+    background-color: #C4C4C4;
+    position: absolute;
+    top: 2295px;
+    left: 280px;
+}
+
+.frame2 {
+    height: 60px;
+    width: 60px;
+    background-color: #C4C4C4;
+    position: absolute;
+    top: 2295px;
+    left: 760px;
+}
+
+.frame3 {
+    height: 60px;
+    width: 60px;
+    background-color: #C4C4C4;
+    position: absolute;
+    top: 2295px;
+    left: 1240px;
+}
+
+.frame4 {
+    height: 60px;
+    width: 60px;
+    background-color: #C4C4C4;
+    position: absolute;
+    top: 2673px;
+    left: 280px;
+}
+
+.frame5 {
+    height: 60px;
+    width: 60px;
+    background-color: #C4C4C4;
+    position: absolute;
+    top: 2673px;
+    left: 760px;
+}
+
+.frame6 {
+    height: 60px;
+    width: 60px;
+    background-color: #C4C4C4;
+    position: absolute;
+    top: 2673px;
+    left: 1240px;
+}
+
+.cnt-us {
+    font-size: 300%;
+    color: white;
+    font-weight: 300;
+    margin: 150px 0px 0px 765px;
+}
+
+.i-accept{
+    position: absolute;
+    left: 1075px;
+    margin-top: 120px;
+    color: white;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 360px;
+    font-size: 1rem;
+    margin: 0 0 20px 0;
+    padding: 0;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s;
+    margin: 15px 0px 0px 1000px;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.forma {
+    margin-top: 85px;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    border-color: white;
+    border: 1px solid white;
+    color: white;
+    padding: 18px 36px 18px 36px;
+    font-weight: 400;
+    position: absolute;
+    left: 1125px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: black;
+    background-color: white;
+}
+
+.footer {
+    color: white;
+    font-size: 80%;
+    position: absolute;
+    left: 830px;
+    margin-top: 250px;
+}
+
+.location {
+    color: white;
+    font-size: 80%;
+    font-weight: 400;
+    position: absolute;
+    top: 3520px;
+    margin-left: 550px;
+}
+
+.telefon {
+    color: white;
+    position: absolute;
+    margin-left: 600px;
+    top: 3570px;
+}
+
+.mail {
+    color: white;
+    position: absolute;
+    margin-left: 600px;
+    top: 3620px;
+}
+
+.telefon-img {
+    position: absolute;
+    margin-left: 563px;
+    top: 3565px;
+}
+
+.mail-img {
+    position: absolute;
+    margin-left: 560px;
+    top: 3620px;
+}
+
+.inst-img {
+    margin: 55px 0px 0px 670px;
+}
